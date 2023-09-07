@@ -1,0 +1,45 @@
+/*Styling for index.html*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #eef0ed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1, h2, h3, h4, p, li {
+    color: #323232;
+}
+
+.header-container {
+    max-width: 50%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.h1-homepage {
+    border-bottom: 4px solid #afafaf;
+    text-transform: uppercase;
+    font-size: 9rem;
+}
+
+ul {
+    margin-top: 1.5em;
+}
+
+ul li {
+    font-size: 2rem;
+    list-style: none;
+    margin-bottom: 0.5em;
+}
+
+ul li a {
+    color: #323232;
+    text-decoration: none;
+}
+
+/*Styling for sticky-chicken-wings.html*/
