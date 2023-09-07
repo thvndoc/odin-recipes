@@ -42,20 +42,52 @@ ul li a {
 }
 
 /*Styling for sticky-chicken-wings.html, macncheese.html, chocolate-pudding.html*/
+.container {
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    max-width: 80%;
+}
+
 .h1-recipe-pages {
     font-size: 3rem;
+    margin-bottom: 0.5em;
+}
+
+img {
+    border: 4px solid #323232;
+    margin-bottom: 2em;
+}
+
+h2, h3, h4, h5 {
+    margin-bottom: 0.5em;
 }
 
 h2, h3, h4, h5 {
     font-size: 2rem;
 }
 
-p, ol, .note, .ingredients-list, .return-home {
+p, ol, .note, .ingredients-list {
     font-size: 1.25rem;
+}
+
+.description, .ingredients-list {
+    margin-bottom: 2em;
+    line-height: 1.5em;
 }
 
 .note {
     font-weight: 800;
+}
+
+.steps {
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+.return-home {
+    font-size: 1.25rem;
+    color: #323232;
 }
 
 
