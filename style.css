@@ -3,11 +3,13 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: #eef0ed;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h1, h2, h3, h4, p, li {
+
+h1, h2, h3, h4, h5, p, li {
     color: #323232;
 }
 
@@ -27,14 +29,11 @@ h1, h2, h3, h4, p, li {
     font-size: 9rem;
 }
 
-ul {
-    margin-top: 1.5em;
-}
-
-ul li {
+.recipes-list {
+    margin-top: 0.575em;
     font-size: 2rem;
     list-style: none;
-    margin-bottom: 0.5em;
+    line-height: 1.5em;
 }
 
 ul li a {
@@ -42,4 +41,21 @@ ul li a {
     text-decoration: none;
 }
 
-/*Styling for sticky-chicken-wings.html*/
+/*Styling for sticky-chicken-wings.html, macncheese.html, chocolate-pudding.html*/
+.h1-recipe-pages {
+    font-size: 3rem;
+}
+
+h2, h3, h4, h5 {
+    font-size: 2rem;
+}
+
+p, ol, .note, .ingredients-list, .return-home {
+    font-size: 1.25rem;
+}
+
+.note {
+    font-weight: 800;
+}
+
+
